@@ -1,0 +1,8 @@
+{
+  "C_Cpp.default.includePath": ["/usr/include"],
+  "files.associations": {
+    "stdlib.h": "c",
+    "stdbool.h": "c"
+  },
+  "C_Cpp.default.compilerPath": "/usr/bin/clang"
+}
