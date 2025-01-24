@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
 
 // This version turns it into a string first
 // bool isPalindrome(int x) {
-//   if (x < 0) { 
+//   if (x < 0) {
 //     return false;
 //   }
 
@@ -27,13 +27,13 @@ int getReversedInt(int y) {
     digit = y % 10;
     reversedY = reversedY * 10 + digit;
     y = (y - digit) / 10;
-  } while(y > 0);
+  } while (y > 0);
   printf("%ld", reversedY);
   return reversedY;
 }
 
 bool isPalindrome(int x) {
-  if (x < 0) { 
+  if (x < 0) {
     return false;
   }
 

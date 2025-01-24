@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 struct Roman {
-  char symbol;
-  int value;
+    char symbol;
+    int value;
 };
 
 int findStringLength(char* s) {

@@ -53,6 +53,5 @@ int main(int argc, char** argv) {
   printf("[%d, %d] [1, 2]\n", result5[0], result5[1]);
   free(result5);
 
-
   return 0;
 }

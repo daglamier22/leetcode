@@ -10,7 +10,6 @@ int** highestPeak(int** isWater, int isWaterSize, int* isWaterColSize, int* retu
   int m = isWaterSize;
   int n = isWaterColSize[0];
 
-
   // create empty queue for BFS
   int capacity = m * n;
   int queueRow[capacity];

@@ -1,0 +1,9 @@
+BasedOnStyle: Google
+IndentWidth: 2
+ContinuationIndentWidth: 2
+ColumnLimit: 0
+NamespaceIndentation: All
+BreakBeforeBraces: Attach
+PointerAlignment: Left
+IndentAccessModifiers: true
+IndentPPDirectives: BeforeHash
